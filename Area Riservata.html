@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Riservata</title>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li><a href="Area Riservata.html">Area Riservata</a></li>
+            <li><a href="Tabella.html">Tabella</a></li>
+        </ul>
+    </nav>
+
+    <!-- per avere il codice più pulito potremmo usare i div, i commenti e soprattutto gli ID che però li vedremo con CSS quando ci serviranno -->
+
+    <!--
+    <form action="database_da creare.php" method="post">
+        -->
+    <fieldset>
+        <legend>Modulo</legend>
+        <label for="Nome">Nome</label>
+        <input type="text" placeholder="Inserisci il tuo nome" required><br>
+        <label for="Cognome">Cognome</label>
+        <input type="text" placeholder="Non puoi inserire il tuo nome" disabled><br>
+        <label for="E-mail">E-mail</label>
+        <input type="email" placeholder="Inserisci la tua email"> <br>
+        <label for="Password">Password </label>
+        <input type="password" placeholder="Inserisci la tua password"><br>
+        <label for="texarea">Note</label><br>
+        <textarea name="Texarea" id="area" cols="30" rows="5">Inserisci delle note</textarea><br>
+        <label for="Genere">Genere</label><br>
+        <input type="radio" name="genere" value="maschio">Maschio
+        <input type="radio" name="genere" value="femmina">Femmina<br>
+        <label for="Data">Data di nascita</label> <input type="date"><br>
+        <label for="Auto">Auto preferita</label>
+        <select name="Auto">
+            <option value="">Seleziona</option>
+            <option value="Volvo">Volvo</option>
+            <option value="Panda">Panda</option>
+            <option value="Toyota">Toyota</option>
+        </select> <br>
+        <input type="checkbox" checked>
+        <label for="Newsletter">Iscriviti alla newsletter</label> <br>
+        <input type="submit">
+        <input type="reset">
+    </fieldset>
+    </form>
+</body>
+
+</html>

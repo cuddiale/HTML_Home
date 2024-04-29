@@ -1,0 +1,9 @@
+Esercitazione di fine corso
+
+Scrivere un sito web composto da 3 pagine, Home, modulo e tabella.
+Da qualsiasi pagina deve essere presente il link che porta a tutte e tre le pagine.
+Nella home avremo, un titolo, un sottotitolo, due paragrafi, una riga hr fra il primo ed il secondo paragrafo ed un immagine con riportati i crediti.
+Nella pagina modulo avremo il modulo di iscrizione, come nome, cognome, età, una text area, un menù a tendina con una scelta preferita, il menù invio e reset.
+Nella pagina tabella dovremmo ricreare una tabella come nel video.
+
+https://www.youtube.com/watch?v=PpBdz1ehRFE&list=PLP5MAKLy8lP_bxApXq9nPVNW-9Y1bGw-e&ab_channel=EdoardoMidali
